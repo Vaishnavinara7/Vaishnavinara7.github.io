@@ -59,11 +59,13 @@ margin:auto !important ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
 }
 
 .navbar .main-menu ul{
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
     
 }
 
@@ -72,7 +74,8 @@ margin:auto !important ;
     display: block;
     font-weight:400;
     transition: 0.5s;
-    color: #000;;
+    color: #000;
+    max-width: 100%;
 }
 
 .navbar ul li a:hover{
