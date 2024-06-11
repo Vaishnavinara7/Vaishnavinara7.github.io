@@ -153,3 +153,26 @@ a:hover {
     margin: 0 auto;
     padding: 0 0.781vw
 }
+/*media screen test*/
+
+@media screen and (max-device-width: 600px) {
+    .contactForm{
+    display:block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    }
+  }
+
+@media screen and (max-device-width: 600px) {
+    .google-map{
+            width: 100% !important; 
+            padding-bottom: 50px;
+    }
+  }
+
+@media screen and (max-device-width: 600px) {
+    iframe{
+            width: 100% !important; 
+            padding-bottom: 50px;
+    }
+  }
