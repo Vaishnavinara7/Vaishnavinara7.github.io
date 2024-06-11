@@ -76,7 +76,7 @@ margin:auto !important ;
     transition: 0.5s;
     color: #000;
     max-width: 100%;
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
         font-size: 2.581vw
       }
 }
@@ -91,6 +91,20 @@ color:rgb(136, 136, 136);
 #contactStuff, #aboutUs, #services{
     padding: 0px 2.084vw 20px 2.084vw;
 
+}
+.contactForm{
+    @media screen and (max-width: 600px) {
+        display:block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+      }
+}
+
+.google-map, iframe{
+    @media screen and (max-width: 600px) {
+        width: 100% !important; 
+        padding-bottom: 50px
+      }
 }
 
 .geotechnical ul, .pavements ul{
