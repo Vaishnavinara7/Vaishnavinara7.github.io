@@ -103,7 +103,7 @@ color:rgb(136, 136, 136);
 .google-map, iframe{
     @media screen and (max-width: 600px) {
         width: 100% !important; 
-        padding-bottom: 50px
+        padding-bottom: 50px;
       }
 }
 
