@@ -6,7 +6,7 @@
 
 body{
     font-family: "Roboto Slab", serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
     background: #fff;
@@ -32,13 +32,14 @@ img{
 }
 h1{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 50px;
     padding-left: 1.823vw;
+    padding-right: 1.823vw;
+    vertical-align: middle;
 }
 h2{
     font-weight: 500;
     font-size:20px;
-    
 }
 
 .logo {
@@ -88,7 +89,7 @@ color:rgb(136, 136, 136);
 /*body stuff*/
 
 
-#contactStuff, #aboutUs, #services{
+#contactStuff, #aboutUs, #services, #projects{
     padding: 0px 2.084vw 20px 2.084vw;
 
 }
@@ -97,6 +98,11 @@ color:rgb(136, 136, 136);
     list-style-type: disc !important;
     list-style-position: inside !important;
 }
+.text ul{
+    list-style-type: disc !important;
+    list-style-position: outside !important;
+}
+
 
 #contactPage {
     color: rgb(0, 0, 0);
@@ -114,9 +120,77 @@ color:rgb(136, 136, 136);
     min-height: 150px;
     color:rgb(255, 255, 255);
     vertical-align: middle;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
+#main{
+    text-align: center;
+}
+
+#main h1{
+    
+    font-weight: 500;
+    font-size: 70px;
+    padding-left: 1.823vw;
+    padding-right: 1.823vw;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#main h2{
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 1.823vw;
+    padding-right: 1.823vw;
+}
+
+.servicesBoxRow{
+    display: flex;
+    box-sizing: border-box;
+    min-height:300px;
+}
+
+.servicesBoxCol{
+    flex: 33.33%;
+    margin: 1.823vw;
+    box-sizing: border-box;
+    min-width:400px;
+    position: relative;
+}
+
+.projectTitle{
+    margin: 1.823vw;
+    position: absolute;
+    top: 0.0vw;
+    left: 0vw;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(172, 172, 172));
+  }
+
+.servicesBoxCol:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    padding:1.823vw;
+  }
 
 /* Footer */
 #footer {
@@ -124,7 +198,7 @@ color:rgb(136, 136, 136);
     bottom : 0;
     height : 220px;
     padding: 15px 20px;
-    margin-top : 180px;
+    margin-top : 30px;
     background-color: rgb(25, 25, 25);
     color:rgb(255, 255, 255);
     justify-content: space-between;
@@ -175,4 +249,11 @@ a:hover {
             width: 100% !important; 
             padding-bottom: 50px;
     }
+  }
+
+  @media screen and (max-device-width: 600px) {
+    .serviceBoxCol{
+        flex: 100%;
+    }
+    
   }
