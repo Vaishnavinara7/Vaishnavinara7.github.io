@@ -253,7 +253,7 @@ a:hover {
 
   @media screen and (max-device-width: 600px) {
     .serviceBoxCol{
-        flex: 100%;
+        flex: 100% !important;
     }
     
   }
