@@ -36,10 +36,16 @@ h1{
     padding-left: 1.823vw;
     padding-right: 1.823vw;
     vertical-align: middle;
+    @media screen and (max-width: 600px) {
+        font-size: 3.038vw !important;
+      }
 }
 h2{
     font-weight: 500;
     font-size:20px;
+    @media screen and (max-width: 600px) {
+        font-size: 1.215vw !important;
+      }
 }
 
 .logo {
@@ -137,6 +143,9 @@ color:rgb(136, 136, 136);
     padding-right: 1.823vw;
     padding-top: 200px;
     padding-bottom: 200px;
+    @media screen and (max-width: 600px) {
+        font-size: 4.253vw !important;
+      }
 }
 
 #main h2{
@@ -144,6 +153,9 @@ color:rgb(136, 136, 136);
     font-size: 40px;
     padding-left: 1.823vw;
     padding-right: 1.823vw;
+    @media screen and (max-width: 600px) {
+        font-size: 2.430vw !important;
+      }
 }
 
 .servicesBoxRow{
@@ -253,7 +265,7 @@ a:hover {
 
   @media screen and (max-device-width: 600px) {
     .serviceBoxCol{
-        flex: 100% !important;
+        width: 100% !important;
     }
     
   }
