@@ -180,6 +180,10 @@ color:rgb(136, 136, 136);
     font-weight: 400;
     font-size: 40px;
 }
+.geotechnical h2, .pavements h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
 
 .overlay {
     position: absolute;
