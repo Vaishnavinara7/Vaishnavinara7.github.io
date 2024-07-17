@@ -198,7 +198,7 @@ color:rgb(136, 136, 136);
 
 .text {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     vertical-align: middle;
     padding:1.823vw;
@@ -265,7 +265,7 @@ a:hover {
 
   @media screen and (max-device-width: 600px) {
     .serviceBoxCol{
-        width: 100% !important;
+        min-width: 100% !important;
     }
     
   }
